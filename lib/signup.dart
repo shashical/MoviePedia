@@ -18,6 +18,7 @@ class _SignUpState extends State<SignUp> {
       //resizeToAvoidBottomInset: false,
       backgroundColor: Colors.blue[200],
       appBar: AppBar(
+        centerTitle: true,
         title: Text("Sign up"),
         backgroundColor: const Color.fromARGB(255, 8, 148, 122),
       ),
@@ -102,6 +103,8 @@ class _SignUpState extends State<SignUp> {
                             password: _passwordTextController.text,
                           )
                               .then((value) {
+                                Navigator.of(context).pop();
+                                Navigator.of(context).pop();
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(

@@ -1,10 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:movies_app/login.dart';
-import 'package:movies_app/main.dart';
-import 'package:movies_app/utils/textstyle.dart';
 import 'package:movies_app/widgets/nowplaying.dart';
 import 'package:movies_app/search_page.dart';
 import 'package:movies_app/widgets/toprated.dart';
@@ -66,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Color.fromARGB(255, 207, 8, 151),
           automaticallyImplyLeading: false,
           centerTitle: true,
-          title: new_text(text:'Movies')),
+          title: Text("Movies"),),
         body: ListView(
           children:[
             TrendingMovies(trending:trending_movies),

@@ -1,9 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:movies_app/home.dart';
 import 'package:movies_app/signup.dart';
-import 'firebase_options.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -118,6 +116,7 @@ class _LoginPageState extends State<LoginPage> {
                                     email: _emailTextController.text,
                                     password: _passwordTextController.text)
                                 .then((value) {
+                                  Navigator.of(context).pop();
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(

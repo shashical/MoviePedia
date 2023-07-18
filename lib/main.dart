@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:movies_app/home.dart';
 import 'package:movies_app/login.dart';
-import 'package:movies_app/signup.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -22,8 +21,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final TextEditingController _passwordTextController = TextEditingController();
-  final TextEditingController _emailTextController = TextEditingController();
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
