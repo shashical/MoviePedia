@@ -126,19 +126,3 @@ class _InfoScreenState extends State<InfoScreen> {
     );
   }
 }
-
-class PlaceholderWidget extends StatelessWidget {
-  final double width;
-  final double height;
-
-  PlaceholderWidget(this.width, this.height);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: width,
-      height: height,
-      color: Colors.grey[300],
-    );
-  }
-}
