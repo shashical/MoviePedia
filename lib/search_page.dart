@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app/home.dart';
-import 'package:movies_app/widgets/movie_info.dart';
+import 'package:movies_app/movie_info.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({Key? key}) : super(key: key);

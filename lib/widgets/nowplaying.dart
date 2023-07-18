@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app/utils/textstyle.dart';
-import 'package:movies_app/widgets/movie_info.dart';
+import 'package:movies_app/movie_info.dart';
 
 class NowPlayingMovies extends StatelessWidget {
   final List nowplaying;

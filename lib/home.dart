@@ -6,7 +6,7 @@ import 'package:movies_app/login.dart';
 import 'package:movies_app/main.dart';
 import 'package:movies_app/utils/textstyle.dart';
 import 'package:movies_app/widgets/nowplaying.dart';
-import 'package:movies_app/widgets/search_page.dart';
+import 'package:movies_app/search_page.dart';
 import 'package:movies_app/widgets/toprated.dart';
 import 'package:tmdb_api/tmdb_api.dart';
 import 'package:movies_app/widgets/trending.dart';
