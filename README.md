@@ -1,1 +1,1 @@
-# movieBuzz
+# MoviePedia
