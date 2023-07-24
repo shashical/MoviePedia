@@ -2,14 +2,20 @@
 
 # MoviePedia - A Movie Browsing App
 
-<!--# Features-->
+MoviePedia is a dynamic movie browsing app that keeps you updated with the trending, top rated and now playing movies. You can just click on any of these movies and know some more about it on the details page of that movie. Not only this, but with MoviePedia you can even search for some movie that's on your mind and view its details in no time. 
+# Features
 
++ Login/Sign up with Email and Password
++ Reset password
++ Up-to-Date trending, top rated and now playing movies
++ Movie search functionality
++ Movie details availability
 # Tech Stack
 **Client:** Flutter
 
 **Backend:** Firebase
 
-**External API Used:** TMDB API (Trending, Top Rated, Now Playing and Search Movie endpoints)
+**External API Used:** TMDB API (Popular, Top Rated, Now Playing and Search Movie endpoints)
 # Screenshots
 
 ![Image1](https://github.com/shashical/MoviePedia/assets/106883186/6248b458-3718-4423-8c61-ff0ced7178ce)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image2](https://github.com/shashical/MoviePedia/assets/106883186/88beeeaa-d5df-4f11-92d3-bd24dabde94a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image3](https://github.com/shashical/MoviePedia/assets/106883186/d5bb59b0-e423-471f-8e18-4cc3dd3409d1)
