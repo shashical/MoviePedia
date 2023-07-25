@@ -40,8 +40,10 @@ MoviePedia is a dynamic movie browsing app that keeps you updated with the trend
    flutter run
 # Download Apk
 https://drive.google.com/file/d/1eSV-vCMj2xoQUPbbgN2TibYPdTbjmIkg/view?usp=sharing
-<!--# Demo-->
+# Demo
 
++ [Sign up for the app](https://drive.google.com/file/d/1l813phmxHRwvEiZ7B2oK6h0Fiar1IgTZ/view?usp=sharing)
++ [Explore the features and enjoy seamless browsing](https://drive.google.com/file/d/1vMFXsfNHZbkTtpTs4Ir4_nyOffKgFquc/view?usp=sharing)
 <!--# Working of the App-->
 
  # Author
