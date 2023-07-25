@@ -25,6 +25,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "MoviePedia",
       debugShowCheckedModeBanner: false,
       home: StreamBuilder(
                     stream: FirebaseAuth.instance.authStateChanges(),
