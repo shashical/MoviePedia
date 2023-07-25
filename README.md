@@ -44,7 +44,21 @@ https://drive.google.com/file/d/1eSV-vCMj2xoQUPbbgN2TibYPdTbjmIkg/view?usp=shari
 
 + [Sign up for the app](https://drive.google.com/file/d/1l813phmxHRwvEiZ7B2oK6h0Fiar1IgTZ/view?usp=sharing)
 + [Explore the features and enjoy seamless browsing](https://drive.google.com/file/d/1vMFXsfNHZbkTtpTs4Ir4_nyOffKgFquc/view?usp=sharing)
-<!--# Working of the App-->
+# Working of the App
+
+The app uses Firebase for user authentication. Upon launching the app for the first time, you will land on the Login page. Since you will be a new user, click on "New user? Create a new account". This will take you to the Sign Up page where you can create a new account by simply entering your email address and a desired password. Once signed up, you will land on the home page of the app.
+
+## Home page
+
+This page displays the main content of the app, which includes trending, top-rated, and now playing movies in three corresponding horizontal scrollable lists aligned vertically. Upon clicking on a particular movie, you will be taken to its details page. At the right end of the app bar, you will find a search icon button; clicking on it will take you to the search page. Additionally, a floating button near the bottom right of the screen allows you to log out of the app. You can always log in again by simply entering the email address you registered with and the corresponding password on the login page. If you have forgotten the password, you can reset it by clicking on "Forgot password?". You will then receive an email in your inbox associated with the registered email, containing a link to reset your password.
+
+## Search page
+
+This page simply helps you search for the movie that's on your mind. Clicking on any search result will take you to the details page of that movie.
+
+## Details page
+
+When you click on a movie, you'll arrive at the Details page, where you can find essential information about the film, including its poster, title, release date, rating, number of raters, and popularity. The page also indicates whether the movie is for adults and provides a brief overview of the film.
 
  # Author
  + [@shashical](https://github.com/shashical)
